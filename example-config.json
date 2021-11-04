@@ -1,0 +1,12 @@
+{
+	"clientId": "BOT-CLIENT-ID",
+	"guildId": "GUILD-ID",
+	"ownerId": "YOUR-ID",
+	"token": "BOT-TOKEN",
+
+	"hostname": "",
+	"port": "",
+	"db_user": "",
+	"db_pass": "",
+	"db_name": ""
+}

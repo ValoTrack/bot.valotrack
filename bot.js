@@ -54,12 +54,12 @@ client.once('ready', () => {
     console.log("starting sync");
     connection.changeUser({
       database : "studio5_db9"
-    }, function(err) {
-      if (err) {
-        console.log('error in changing database', err);
+      }, function(err) {
+        if (err) {
+          console.log('error in changing database', err);
         return;
-    }
-  });
+      }
+    });
     let sql = "SELECT * FROM valotrack_sync";
     connection.query(sql, function (err, result) {
       if (err) throw err;

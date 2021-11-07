@@ -48,8 +48,6 @@ client.once('ready', () => {
         errorReply: "Unable to run this command due to errors",
         notOwnerReply: "Only bot owner's can use this command",
     });
-
-    
     
     console.log("starting sync");
     connection.changeUser({
@@ -67,112 +65,112 @@ client.once('ready', () => {
         var currenttier = valorant.currenttier;
         switch(currenttier) {
           case 3:
-            var role = member.guild.roles.find(role => role.name === "Iron 1");
+            
             console.log("Iron 1");
   
             break;
           case 4:
-            var role = member.guild.roles.find(role => role.name === "Iron 2");
+            
             console.log("Iron 2");
             
             break;
           case 5:
-            var role = member.guild.roles.find(role => role.name === "Iron 3");
+            
             console.log("Iron 3");
             
             break;
           case 6:
-            var role = member.guild.roles.find(role => role.name === "Bronze 1");
+            
             console.log("Iron 1");
             
             break;
           case 7:
-            var role = member.guild.roles.find(role => role.name === "Bronze 2");
+            
             console.log("Iron 1");
             
             break;
           case 8:
-            var role = member.guild.roles.find(role => role.name === "Bronze 3");
+            
             console.log("Iron 1");
             
             break;
           case 9:
-            var role = member.guild.roles.find(role => role.name === "Silver 1");
+            
             console.log("Iron 1");
             
             break;
           case 10:
-            var role = member.guild.roles.find(role => role.name === "Silver 2");
+            
             console.log("Iron 1");
             
             break;
           case 11:
-            var role = member.guild.roles.find(role => role.name === "Silver 3");
+            
             console.log("Iron 1");
             
             break;
           case 12:
-            var role = member.guild.roles.find(role => role.name === "Gold 1");
+            
             console.log("Iron 1");
             
             break;
           case 13:
-            var role = member.guild.roles.find(role => role.name === "Gold 2");
+            
             console.log("Iron 1");
             
             break;
           case 14:
-            var role = member.guild.roles.find(role => role.name === "Gold 3");
+            
             console.log("Iron 1");
             
             break;
           case 15:
-            var role = member.guild.roles.find(role => role.name === "Platinum 1");
+            
             console.log("Iron 1");
             
             break;
           case 16:
-            var role = member.guild.roles.find(role => role.name === "Platinum 2");
+            
             console.log("Iron 1");
             
             break;
           case 17:
-            var role = member.guild.roles.find(role => role.name === "Platinum 3");
+            
             console.log("Iron 1");
             
             break;
           case 18:
-            var role = member.guild.roles.find(role => role.name === "Diamond 1");
+            
             console.log("Iron 1");
             
             break;
           case 19:
-            var role = member.guild.roles.find(role => role.name === "Diamond 2");
+            
             console.log("Iron 1");
             
             break;
           case 20:
-            var role = member.guild.roles.find(role => role.name === "Diamond 3");
+            
             console.log("Iron 1");
             
             break;
           case 21:
-            var role = member.guild.roles.find(role => role.name === "Immortal 1");
+            
             console.log("Iron 1");
             
             break;
           case 22:
-            var role = member.guild.roles.find(role => role.name === "Immortal 2");
+            
             console.log("Iron 1");
             
             break;
           case 23:
-            var role = member.guild.roles.find(role => role.name === "Immortal 3");
+            
             console.log("Iron 1");
             
             break;
           case 24:
-            var role = member.guild.roles.find(role => role.name === "Radiant");
+            
             console.log("Iron 1");
             break;
         };

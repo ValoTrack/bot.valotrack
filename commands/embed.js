@@ -20,10 +20,10 @@ module.exports = {
                 .setColor('#0099ff')
                 .setTitle('ValoRank Sync')
                 .setThumbnail('https://cdn.discordapp.com/attachments/847852754047467550/900678550196207646/Vesturo_1.png')
-                .setDescription('Synchronisiere einfach deinen Valorant Rank um die Passende Rolle zu erhalten!')
+                .setDescription('Synchronise your Valorant rank to discord with ease!')
                 .addFields(
-                    {name: 'Synchronisierung', value: 'Klicke einfach auf den button "sync" um deine Profile zu verknüpfen!' },
-                    {name: 'wichtig', value: 'Solltest du deinen Discord namen ändern musst du diesen Schritt erneut durchführen!' }
+                    {name: 'Synchronising', value: 'click on the button below to setup your personal sync' },
+                    {name: 'important', value: 'you have to resync if you change your Discord or Valorant name!' }
                 )
                 .setTimestamp()
                 .setFooter('Made by Studio 5', 'https://cdn.discordapp.com/attachments/847852754047467550/900678550196207646/Vesturo_1.png');
@@ -36,19 +36,11 @@ module.exports = {
                             components: [
                                 {
                                     type: 2,
-                                    style: 4,
-                                    label: "Synchronisieren",
-                                    // Our button id, we can use that later to identify,
-                                    // that the user has clicked this specific button
-                                    custom_id: "start_sync"
-                                },
-                                {
-                                    type: 2,
                                     style: 5,
-                                    label: "Bot selbst nutzen",
+                                    label: "Synchronise Account",
                                     // Our button id, we can use that later to identify,
                                     // that the user has clicked this specific button
-                                    url: "https://github.com/vesturo/ValoRank-bot"
+                                    url: "https://auth.valotrack.com"
                                 }
                             ]
                         }
